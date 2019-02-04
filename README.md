@@ -2,6 +2,10 @@
 All Images found on google / google-earth-pro.
 
 # Script
+I have written this script for my personal use as I often change my wallpapers around to match my work setting.
+It uses pywal to generate colorprofiles for my urxvt terminal based on the selected wallpaper.
+Apart from that it only allows you to search through the images in a folder and choose one to use as new wallpaper / default wallpaper / flip through neighbouring images to use as wallpaper.
+
 ## Requirements
 https://github.com/dylanaraps/pywal
 
@@ -87,3 +91,4 @@ exec bgswap -r
 
 Don't forget to add the script to your path and making it executable.
 (E.g.: `echo -e '#!/bin/bash\npython3 ~/bgswap/bgswap.py "$@"' > /usr/local/bin/bgswap`)
+
