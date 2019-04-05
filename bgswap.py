@@ -39,6 +39,8 @@ def set_wallpaper(img_path):
     if os.name == "nt":
         # WINDOWS
         ctypes.windll.user32.SystemParametersInfoW(20, 0, img_path, 0)
+        with open(CURRENT, 'w') as c:
+            c.write(img_path)
     else:
         rc = os.system("wal -i "+img_path+" -a "+str(OPPACITY))
         if rc != 0:
