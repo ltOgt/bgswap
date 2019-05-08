@@ -91,3 +91,9 @@ earthview-pro-china-sea-mosaic-05.jpg
 earthview-pro-italy-coast-01.jpg
 	42°26'08.53"N
 	11°08'04.11"E
+earthview-pro-australia-ocean-01.jpg
+	21°48'19.53"S
+   165°43'42.13"E
+earthview-pro-australia-ocean-02.jpg
+	21°42'47.34"S
+   165°31'37.08"E
